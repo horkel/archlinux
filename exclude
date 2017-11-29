@@ -11,3 +11,10 @@ tmp/*
 var/cache/pacman/pkg/*
 var/lib/pacman/sync/*
 var/tmp/*
+var/log/pacman.log
+usr/share/man
+usr/share/gtk-doc
+usr/share/doc
+usr/share/info
+usr/share/zoneinfo
+usr/share/i18n

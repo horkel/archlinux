@@ -23,7 +23,7 @@ pacman -S extra/arch-install-scripts
 ### 构建 Docker Image
 
 ```
-docker build -t horkel/archlinux:2017.11.22 .
+docker build -t horkel/archlinux:2018.11.16 .
 docker build -t horkel/archlinux:latest .
 ```
 

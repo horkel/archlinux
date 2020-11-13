@@ -12,6 +12,8 @@
 * devtools // 依赖 python3
 * pacstrap 安装如下
 
+pacman -S make pkgfile extra/arch-install-scripts
+
 ```shell
 pacman -S pkgfile
 pkgfile --update
@@ -32,3 +34,9 @@ docker build -t horkel/archlinux:latest .
 * 提供一个基础的 ArchLinux Docker 镜像，完整且简单易用；
 * `pacman` 开箱即用
 * 所有软件保持原汁原味
+
+### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2020-present, AlphaTr
